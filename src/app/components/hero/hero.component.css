@@ -1,6 +1,6 @@
 .hero {
   min-height: 500px; /* maior altura para o destaque */
-  background: url('/assets/logos/logo_Baroni_Massad.png') no-repeat center center;
+  background: url('/assets/fundo-vet.png') no-repeat center center;
   background-size: cover;
   color: white;
   padding: 5rem 2rem;
@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  filter: brightness(0.9);
 }
 
 .hero::before {
